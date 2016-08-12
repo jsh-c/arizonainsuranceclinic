@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="61e9e348-1d3a-4190-b3ef-f3ee8ef2cdfb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/insurance/insurance.html" afterPath="$PROJECT_DIR$/content/insurance/insurance.html" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.91172415" vertical-offset="4649" max-vertical-offset="8235">
-              <caret line="354" column="32" selection-start-line="354" selection-start-column="32" selection-end-line="354" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.7875862" vertical-offset="2594" max-vertical-offset="8235">
+              <caret line="211" column="143" selection-start-line="211" selection-start-column="143" selection-end-line="211" selection-end-column="143" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,8 +64,8 @@
       <file leaf-file-name="insurance.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/insurance/insurance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3636365" vertical-offset="2370" max-vertical-offset="6840">
-              <caret line="174" column="191" selection-start-line="174" selection-start-column="186" selection-end-line="174" selection-end-column="191" />
+            <state vertical-scroll-proportion="-4.3636365" vertical-offset="1725" max-vertical-offset="6840">
+              <caret line="131" column="58" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -512,8 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/insurance/insurance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3636365" vertical-offset="2370" max-vertical-offset="6840">
-          <caret line="174" column="191" selection-start-line="174" selection-start-column="186" selection-end-line="174" selection-end-column="191" />
+        <state vertical-scroll-proportion="-4.3636365" vertical-offset="1725" max-vertical-offset="6840">
+          <caret line="131" column="58" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="58" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -547,8 +547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91172415" vertical-offset="4649" max-vertical-offset="8235">
-          <caret line="354" column="32" selection-start-line="354" selection-start-column="32" selection-end-line="354" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.7875862" vertical-offset="2594" max-vertical-offset="8235">
+          <caret line="211" column="143" selection-start-line="211" selection-start-column="143" selection-end-line="211" selection-end-column="143" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
