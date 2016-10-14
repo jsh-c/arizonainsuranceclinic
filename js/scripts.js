@@ -954,25 +954,7 @@
 		});
 		
 		
-		/* ---------------------------------------------------------------------------
-		 * WooCommerce
-		 * --------------------------------------------------------------------------- */	
-		function addToCart(){
-			jQuery('body').on('click', '.add_to_cart_button', function(){
-				jQuery(this)
-					.closest('.product')
-						.addClass('adding-to-cart')
-						.removeClass('added-to-cart');
-			});
-
-			jQuery('body').bind('added_to_cart', function() {
-				jQuery('.adding-to-cart')
-					.removeClass('adding-to-cart')
-					.addClass('added-to-cart');
-			});
-		}
-		addToCart();
-		
+	
 		
 		/* ---------------------------------------------------------------------------
 		 * Iframe height
@@ -990,7 +972,7 @@
 			
 			iframeHeight(jQuery(".section-portfolio-header .mfn-jplayer, .section-portfolio-header iframe" ), 0.4);	// portfolio - single
 		}
-		iframesHeight();
+		// iframesHeight();
 
 		
 		/* ---------------------------------------------------------------------------
@@ -1771,22 +1753,7 @@ function mfnSliderContent(){
 		});
 	}
 
-window.mfn_nicescroll = 25;
-			window.mfn_prettyphoto = {
-				disable : 0,
-				width : 0,
-				height : 0
-			};
-			window.mfn_sliders = {
-				blog : 0,
-				clients : 0,
-				offer : 10000,
-				portfolio : 0,
-				shop : 0,
-				slider : 6000,
-				testimonials : 7000
-		
-		};
+
 	
 
 
