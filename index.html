@@ -32,6 +32,46 @@
         <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
 
+        <script language="JavaScript" type="text/javascript">
+             var isMobile = {
+                 Android: function() {
+                     return navigator.userAgent.match(/Android/i);
+                 },
+                 BlackBerry: function() {
+                     return navigator.userAgent.match(/BlackBerry/i);
+                 },
+                 iOS: function() {
+                     return navigator.userAgent.match(/iPhone|iPod/i);
+                 },
+                 Opera: function() {
+                     return navigator.userAgent.match(/Opera Mini/i);
+                 },
+                 Windows: function() {
+                     return navigator.userAgent.match(/IEMobile/i);
+                 },
+                 any: function() {
+                     return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+                 }
+             };
+
+             function openMap() {
+
+                if (isMobile.Android()) {
+                    window.open('http://maps.google.com/maps?daddr=4925,5th+Street,Suite+101,Tucson,Arizona,85711');
+                }
+                else if (isMobile.iOS()) {
+                    window.open('http://maps.apple.com/?daddr=4925,5th+Street,Suite+101,Tucson,Arizona,85711');
+                }
+                else if (isMobile.Windows()) {
+                    window.open('https://www.bing.com/maps?rtp=~adr.4925,5th+Street,Suite+101,Tucson,Arizona,85711');                    
+                }
+                else {
+                    window.open('http://maps.google.com/maps?daddr=4925,5th+Street,Suite+101,Tucson,Arizona,85711');
+                }
+             } 
+
+        </script>
+
     </head>
 
     <body class="home page layout-full-width header-classic minimalist-header header-menu-right sticky-header sticky-white subheader-both-center no-content-padding">
@@ -159,13 +199,15 @@
                                 <h3>Get in touch</h3>
                                 <div class="get_in_touch_wrapper">
                                     <ul>
-                                        <li class="address">
+                                        <li class="address" id="address"  onclick="openMap();">
                                             <span class="icon"><i class="icon-location"></i></span><span class="address_wrapper"><strong>Arizona Insurance Clinic
                                         </strong>
                                                 <br>
-                                                4925 5th Street, Suite 101
+                                                <a >4925 5th Street, Suite 101
                                                 <br>
                                                 Tucson, Arizona 85711</span>
+                                                </a>
+                                                
                                         </li>
                                         <li class="phone">
                                             <span class="icon"><i class="icon-phone"></i></span>
